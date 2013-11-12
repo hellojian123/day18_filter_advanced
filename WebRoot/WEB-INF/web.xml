@@ -22,6 +22,11 @@
     <servlet-name>ServletDemo5</servlet-name>
     <servlet-class>com.cdvtc.web.servlet.ServletDemo5</servlet-class>
   </servlet>
+  <servlet>
+    <servlet-name>ServletDemo6</servlet-name>
+    <servlet-class>com.cdvtc.web.servlet.ServletDemo6</servlet-class>
+  </servlet>
+
 
 
 	<servlet-mapping>
@@ -43,6 +48,10 @@
   <servlet-mapping>
     <servlet-name>ServletDemo5</servlet-name>
     <url-pattern>/servlet/ServletDemo5</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ServletDemo6</servlet-name>
+    <url-pattern>/servlet/ServletDemo6</url-pattern>
   </servlet-mapping>
 
 	<filter>
